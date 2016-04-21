@@ -1,6 +1,6 @@
 from abc import ABCMeta 
  
-class Car(metaclass=ABCMeta): 
+class Car(metaclass): 
     def __init__(self): 
         self.name = None 
         self.maxSpeed = None 
